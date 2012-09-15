@@ -1,0 +1,339 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DFE4197116048E3900AEF6FA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFE4197016048E3900AEF6FA /* Cocoa.framework */; };
+		DFE4197B16048E3900AEF6FA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DFE4197916048E3900AEF6FA /* InfoPlist.strings */; };
+		DFE4197D16048E3900AEF6FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE4197C16048E3900AEF6FA /* main.m */; };
+		DFE4198116048E3900AEF6FA /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = DFE4197F16048E3900AEF6FA /* Credits.rtf */; };
+		DFE4198416048E3900AEF6FA /* VMTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE4198316048E3900AEF6FA /* VMTAppDelegate.m */; };
+		DFE4198716048E3900AEF6FA /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFE4198516048E3900AEF6FA /* MainMenu.xib */; };
+		DFE41990160494BC00AEF6FA /* VMTServerNameUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE4198F160494BC00AEF6FA /* VMTServerNameUtils.m */; };
+		DFE419921604953100AEF6FA /* sample_resolv.conf in Resources */ = {isa = PBXBuildFile; fileRef = DFE419911604953100AEF6FA /* sample_resolv.conf */; };
+		DFE419961604987600AEF6FA /* VMTShellWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE419951604987600AEF6FA /* VMTShellWrapper.m */; };
+		DFE419A51604CFF100AEF6FA /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFE419A41604CFF100AEF6FA /* Security.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DFE4196C16048E3900AEF6FA /* OneClickDNS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OneClickDNS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFE4197016048E3900AEF6FA /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		DFE4197316048E3900AEF6FA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		DFE4197416048E3900AEF6FA /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		DFE4197516048E3900AEF6FA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DFE4197816048E3900AEF6FA /* OneClickDNS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OneClickDNS-Info.plist"; sourceTree = "<group>"; };
+		DFE4197A16048E3900AEF6FA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DFE4197C16048E3900AEF6FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DFE4197E16048E3900AEF6FA /* OneClickDNS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OneClickDNS-Prefix.pch"; sourceTree = "<group>"; };
+		DFE4198016048E3900AEF6FA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		DFE4198216048E3900AEF6FA /* VMTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VMTAppDelegate.h; sourceTree = "<group>"; };
+		DFE4198316048E3900AEF6FA /* VMTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VMTAppDelegate.m; sourceTree = "<group>"; };
+		DFE4198616048E3900AEF6FA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		DFE4198E160494BC00AEF6FA /* VMTServerNameUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VMTServerNameUtils.h; path = Core/VMTServerNameUtils.h; sourceTree = "<group>"; };
+		DFE4198F160494BC00AEF6FA /* VMTServerNameUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VMTServerNameUtils.m; path = Core/VMTServerNameUtils.m; sourceTree = "<group>"; };
+		DFE419911604953100AEF6FA /* sample_resolv.conf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = sample_resolv.conf; path = templates/sample_resolv.conf; sourceTree = "<group>"; };
+		DFE419941604987600AEF6FA /* VMTShellWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VMTShellWrapper.h; path = Core/VMTShellWrapper.h; sourceTree = "<group>"; };
+		DFE419951604987600AEF6FA /* VMTShellWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VMTShellWrapper.m; path = Core/VMTShellWrapper.m; sourceTree = "<group>"; };
+		DFE419A41604CFF100AEF6FA /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DFE4196916048E3900AEF6FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFE419A51604CFF100AEF6FA /* Security.framework in Frameworks */,
+				DFE4197116048E3900AEF6FA /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DFE4196116048E3900AEF6FA = {
+			isa = PBXGroup;
+			children = (
+				DFE419A41604CFF100AEF6FA /* Security.framework */,
+				DFE4197616048E3900AEF6FA /* OneClickDNS */,
+				DFE4196F16048E3900AEF6FA /* Frameworks */,
+				DFE4196D16048E3900AEF6FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DFE4196D16048E3900AEF6FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DFE4196C16048E3900AEF6FA /* OneClickDNS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DFE4196F16048E3900AEF6FA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DFE4197016048E3900AEF6FA /* Cocoa.framework */,
+				DFE4197216048E3900AEF6FA /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DFE4197216048E3900AEF6FA /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DFE4197316048E3900AEF6FA /* AppKit.framework */,
+				DFE4197416048E3900AEF6FA /* CoreData.framework */,
+				DFE4197516048E3900AEF6FA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		DFE4197616048E3900AEF6FA /* OneClickDNS */ = {
+			isa = PBXGroup;
+			children = (
+				DFE41993160495EE00AEF6FA /* templates */,
+				DFE4198D1604945400AEF6FA /* Core */,
+				DFE4198216048E3900AEF6FA /* VMTAppDelegate.h */,
+				DFE4198316048E3900AEF6FA /* VMTAppDelegate.m */,
+				DFE4198516048E3900AEF6FA /* MainMenu.xib */,
+				DFE4197716048E3900AEF6FA /* Supporting Files */,
+			);
+			path = OneClickDNS;
+			sourceTree = "<group>";
+		};
+		DFE4197716048E3900AEF6FA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DFE4197816048E3900AEF6FA /* OneClickDNS-Info.plist */,
+				DFE4197916048E3900AEF6FA /* InfoPlist.strings */,
+				DFE4197C16048E3900AEF6FA /* main.m */,
+				DFE4197E16048E3900AEF6FA /* OneClickDNS-Prefix.pch */,
+				DFE4197F16048E3900AEF6FA /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DFE4198D1604945400AEF6FA /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				DFE4198E160494BC00AEF6FA /* VMTServerNameUtils.h */,
+				DFE4198F160494BC00AEF6FA /* VMTServerNameUtils.m */,
+				DFE419941604987600AEF6FA /* VMTShellWrapper.h */,
+				DFE419951604987600AEF6FA /* VMTShellWrapper.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		DFE41993160495EE00AEF6FA /* templates */ = {
+			isa = PBXGroup;
+			children = (
+				DFE419911604953100AEF6FA /* sample_resolv.conf */,
+			);
+			name = templates;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DFE4196B16048E3900AEF6FA /* OneClickDNS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFE4198A16048E3900AEF6FA /* Build configuration list for PBXNativeTarget "OneClickDNS" */;
+			buildPhases = (
+				DFE4196816048E3900AEF6FA /* Sources */,
+				DFE4196916048E3900AEF6FA /* Frameworks */,
+				DFE4196A16048E3900AEF6FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OneClickDNS;
+			productName = OneClickDNS;
+			productReference = DFE4196C16048E3900AEF6FA /* OneClickDNS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DFE4196316048E3900AEF6FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = VMT;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Void Main";
+			};
+			buildConfigurationList = DFE4196616048E3900AEF6FA /* Build configuration list for PBXProject "OneClickDNS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DFE4196116048E3900AEF6FA;
+			productRefGroup = DFE4196D16048E3900AEF6FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DFE4196B16048E3900AEF6FA /* OneClickDNS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DFE4196A16048E3900AEF6FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFE4197B16048E3900AEF6FA /* InfoPlist.strings in Resources */,
+				DFE4198116048E3900AEF6FA /* Credits.rtf in Resources */,
+				DFE4198716048E3900AEF6FA /* MainMenu.xib in Resources */,
+				DFE419921604953100AEF6FA /* sample_resolv.conf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DFE4196816048E3900AEF6FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFE4197D16048E3900AEF6FA /* main.m in Sources */,
+				DFE4198416048E3900AEF6FA /* VMTAppDelegate.m in Sources */,
+				DFE41990160494BC00AEF6FA /* VMTServerNameUtils.m in Sources */,
+				DFE419961604987600AEF6FA /* VMTShellWrapper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DFE4197916048E3900AEF6FA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFE4197A16048E3900AEF6FA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DFE4197F16048E3900AEF6FA /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFE4198016048E3900AEF6FA /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		DFE4198516048E3900AEF6FA /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFE4198616048E3900AEF6FA /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DFE4198816048E3900AEF6FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DFE4198916048E3900AEF6FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DFE4198B16048E3900AEF6FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OneClickDNS/OneClickDNS-Prefix.pch";
+				INFOPLIST_FILE = "OneClickDNS/OneClickDNS-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DFE4198C16048E3900AEF6FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OneClickDNS/OneClickDNS-Prefix.pch";
+				INFOPLIST_FILE = "OneClickDNS/OneClickDNS-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DFE4196616048E3900AEF6FA /* Build configuration list for PBXProject "OneClickDNS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFE4198816048E3900AEF6FA /* Debug */,
+				DFE4198916048E3900AEF6FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFE4198A16048E3900AEF6FA /* Build configuration list for PBXNativeTarget "OneClickDNS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFE4198B16048E3900AEF6FA /* Debug */,
+				DFE4198C16048E3900AEF6FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DFE4196316048E3900AEF6FA /* Project object */;
+}
